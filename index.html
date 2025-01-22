@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Preschool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        header {
+            background-color: #ffcc00;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffc107;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #343a40;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #e8f5e9;
+            border-radius: 10px;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .feature {
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffcc00;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Preschool</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#programs">Programs</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Where Learning Meets Fun!</h2>
+        <p>Our preschool is dedicated to nurturing young minds in a safe, fun, and engaging environment.</p>
+        <img src="preschool-image.jpg" alt="Happy children playing in preschool">
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At our preschool, we believe that early education sets the foundation for lifelong learning. Our experienced teachers and carefully designed curriculum help children grow, explore, and thrive.</p>
+    </section>
+
+    <section id="programs">
+        <h2>Our Programs</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Playgroup</h3>
+                <p>Fostering creativity and social skills for toddlers aged 2-3 years.</p>
+            </div>
+            <div class="feature">
+                <h3>Nursery</h3>
+                <p>Building strong foundations in language, math, and motor skills.</p>
+            </div>
+            <div class="feature">
+                <h3>Kindergarten</h3>
+                <p>Preparing children for school with a focus on holistic development.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="admissions">
+        <h2>Admissions</h2>
+        <p>Enrollment for the upcoming academic year is now open. Limited seats available, so don’t wait!</p>
+        <p><a href="#contact">Contact us</a> for more information or to schedule a visit.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@ourpreschool.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Address: 123 Learning Lane, Education City</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Our Preschool. All rights reserved.</p>
+    </footer>
+</body>
+</html>
